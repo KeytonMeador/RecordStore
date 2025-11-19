@@ -133,7 +133,7 @@ switch ($action) {
         $view = 'login';
         break;
         
-        // This case handels user registration, it is different from login because it creates new users
+    // This case handels user registration, it is different from login because it creates new users
     case 'register':
         $username  = trim((string)($_POST['username'] ?? ''));
         $full_name = trim((string)($_POST['full_name'] ?? ''));
